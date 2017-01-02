@@ -12,13 +12,17 @@ $(document).ready(function(){
 			cuscc_branches.removeClass("show").addClass("hide");
 		}
 	} );
-	$("#cuscc_menu ul li,#cuscc_menu ul li a").on("mouseover",function(e){
-		$(e.target).children('ul').css("display","block");
+    
+	$("#cuscc_menu>div>ul>li>a").on("mouseover",function(e){
+		e.stopPropagation();
+        $(e.target).parent().children('ul').slideDown("fast");
+        $(e.target).parent().siblings().children('ul').slideUp("fast");
 		return false;
 	});
 	
-	$("#cuscc_menu ul li,#cuscc_menu ul li ul").on("mouseout",function(e){
-		$(e.target).children('ul').css("display","none");
+	$("#cuscc_menu>div>ul>li").on("mouseout",function(e){
+		e.stopPropagation();
+        $(e.target).children('ul').slideUp("fast");
 		return false;
 	});
 	
