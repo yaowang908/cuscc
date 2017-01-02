@@ -13,19 +13,24 @@ $(document).ready(function(){
 		}
 	} );
     
-	$("#cuscc_menu>div>ul>li>a").on("mouseover",function(e){
-		e.stopPropagation();
-        $(e.target).parent().children('ul').slideDown("fast");
-        $(e.target).parent().siblings().children('ul').slideUp("fast");
+	$("#cuscc_menu>div>ul>li>a").on("mouseenter",function(){
+		
+        $(this).parent().children('ul').slideDown("fast");
+        $(this).parent().siblings().children('ul').slideUp("fast");
 		return false;
 	});
 	
-	$("#cuscc_menu>div>ul>li").on("mouseout",function(e){
-		e.stopPropagation();
-        $(e.target).children('ul').slideUp("fast");
-		return false;
+	$("#cuscc_menu>div>ul>li").on("mouseleave",function(){
+        console.log("mouseleave");
+		$(this).children('ul').slideUp("fast");
+        return false;
 	});
 	
+    $("#cuscc_menu>div>ul>li>ul>li").on("mouseleave",function(){
+        console.log("mouseleave 2li");
+		$(this).parent().slideUp("fast");
+        return false;
+	});
 	
 	
 });

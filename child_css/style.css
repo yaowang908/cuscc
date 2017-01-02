@@ -210,6 +210,13 @@ body{width:100%;min-height:100vh;position:relative;font-family: Montserrat,Cambr
 	width:80vw;
 	margin:0 auto;
 }
-
+#cuscc_lastest_news{
+    width:50%;
+    background-color: #c3c1c1;
+}
+#cuscc_videos{
+    width:50%;
+    background-color: aqua;
+}
 
 

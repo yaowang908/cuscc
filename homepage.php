@@ -6,7 +6,11 @@ get_header();
 ?>
 
 <div class="cuscc_main_container">
-	<P>main contant</P>
+	<div id="cuscc_lastest_news" class="left">
+    
+    </div>
+    <div id="cuscc_videos" class="left"></div>
+    <div class="clear"></div>
 </div>
 
 
