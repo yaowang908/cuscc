@@ -21,13 +21,13 @@ $(document).ready(function(){
 	});
 	
 	$("#cuscc_menu>div>ul>li").on("mouseleave",function(){
-        console.log("mouseleave");
+        //console.log("mouseleave");
 		$(this).children('ul').slideUp("fast");
         return false;
 	});
 	
     $("#cuscc_menu>div>ul>li>ul>li").on("mouseleave",function(){
-        console.log("mouseleave 2li");
+        //console.log("mouseleave 2li");
 		$(this).parent().slideUp("fast");
         return false;
 	});
