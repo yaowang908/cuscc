@@ -26,9 +26,9 @@ $(document).ready(function(){
         return false;
 	});
 	
-    $("#cuscc_menu>div>ul>li>ul>li").on("mouseleave",function(){
+    $("#cuscc_menu>div>ul>li>ul").on("mouseleave",function(){
         //console.log("mouseleave 2li");
-		$(this).parent().slideUp("fast");
+		$(this).slideUp("fast");
         return false;
 	});
 	

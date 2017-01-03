@@ -111,14 +111,11 @@ body{width:100%;min-height:100vh;position:relative;font-family: Montserrat,Cambr
 	border-left: rgba(175,175,175,0.20) 1px solid;
 	position: relative;
 }
-<<<<<<< HEAD
-=======
 #menu-primary > li > a{
     display:block;
     min-width:110px;
     height: 100px;
 }
->>>>>>> 4885fca44105a45cd4d8b7c16074a10ea07c58f7
 #cuscc_menu ul li ul{
 	display: none;
 	z-index: 100;
@@ -213,11 +210,6 @@ body{width:100%;min-height:100vh;position:relative;font-family: Montserrat,Cambr
 	width:80vw;
 	margin:0 auto;
 }
-<<<<<<< HEAD
-
-
-
-=======
 #cuscc_banner{
     width:100%;
     height:350px;
@@ -232,7 +224,6 @@ body{width:100%;min-height:100vh;position:relative;font-family: Montserrat,Cambr
     min-height:80vh;
     background-color: aqua;
 }
-
 
 
 #cuscc_latest_members {
@@ -256,4 +247,3 @@ body{width:100%;min-height:100vh;position:relative;font-family: Montserrat,Cambr
     height:150px;
     background-color: aquamarine;
 }
->>>>>>> 4885fca44105a45cd4d8b7c16074a10ea07c58f7
