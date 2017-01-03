@@ -213,11 +213,13 @@ body{width:100%;min-height:100vh;position:relative;font-family: Montserrat,Cambr
 #cuscc_banner{
     width:100%;
     height:350px;
+    background-image:url("../child_images/banner.jpg");
+    background-size: cover;
 }
 #cuscc_lastest_news{
     width:50%;
     min-height:80vh;
-    background-color: #c3c1c1;
+    /*background-color: #c3c1c1;*/
 }
 #cuscc_videos{
     width:50%;
@@ -246,4 +248,31 @@ body{width:100%;min-height:100vh;position:relative;font-family: Montserrat,Cambr
     width:100%;
     height:150px;
     background-color: aquamarine;
+}
+
+.cuscc_posts_list {
+    margin:0;
+    padding:0;
+    margin-left:5%;
+    margin-right: 10%;
+    margin-top:20px;
+}
+.cuscc_posts_list>div>li{
+    list-style-type: none;
+    margin-bottom: 1.5rem;
+}
+.cuscc_post_title {
+    font-size: 1.125rem;
+}
+.cuscc_post_container>li>p>a{
+    display:block;
+    float:right;
+}
+.cuscc_post_container>li>p>a:after{
+    clear:both;
+}
+
+#cuscc_lastest_news_title {
+    margin-top:1rem;
+    font-size: 1.5rem;
 }

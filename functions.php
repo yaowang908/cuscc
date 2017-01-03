@@ -7,5 +7,4 @@ function twentyseventeen_child_enqueue_syles(){
 }
 add_action('wp_enqueue_scripts','twentyseventeen_child_enqueue_styles');
 
-
 ?>
