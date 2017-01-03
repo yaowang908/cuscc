@@ -12,16 +12,24 @@ $(document).ready(function(){
 			cuscc_branches.removeClass("show").addClass("hide");
 		}
 	} );
-	$("#cuscc_menu ul li,#cuscc_menu ul li a").on("mouseover",function(e){
-		$(e.target).children('ul').css("display","block");
+    
+	$("#cuscc_menu>div>ul>li>a").on("mouseenter",function(){
+		
+        $(this).parent().children('ul').slideDown("fast");
+        $(this).parent().siblings().children('ul').slideUp("fast");
 		return false;
 	});
 	
-	$("#cuscc_menu ul li,#cuscc_menu ul li ul").on("mouseout",function(e){
-		$(e.target).children('ul').css("display","none");
-		return false;
+	$("#cuscc_menu>div>ul>li").on("mouseleave",function(){
+        //console.log("mouseleave");
+		$(this).children('ul').slideUp("fast");
+        return false;
 	});
 	
-	
+    $("#cuscc_menu>div>ul>li>ul>li").on("mouseleave",function(){
+        //console.log("mouseleave 2li");
+		$(this).parent().slideUp("fast");
+        return false;
+	});
 	
 });
