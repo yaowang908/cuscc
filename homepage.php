@@ -8,12 +8,13 @@ get_header();
 <div class="cuscc_main_container">
 
 	<div id="cuscc_banner"></div>
+    <div id="cuscc_updates">
     <div id="cuscc_lastest_news" class="left">
         <div id="cuscc_lastest_news_title">Latest News</div>
         <div><?php
             $posts = query_posts(array(
                     'category_name' => 'cuscc,others',
-                    'posts_per_page' =>6
+                    'posts_per_page' =>7
                 ) );?>
            
                 <ul class="cuscc_posts_list">
@@ -33,6 +34,7 @@ get_header();
     </div>
     <div id="cuscc_videos" class="left">
         <div id="userip" style="display:none;"><?php echo $_SERVER["REMOTE_ADDR"]?></div>
+        <div id="cuscc_videos_title">CUSCC in Timeline</div>
         <div class="cuscc_video_holder cuscc_intro_video_youku">
                 <iframe height=315 width=560 src="http://player.youku.com/embed/XOTAxMjY3ODI0" frameborder=0 allowfullscreen></iframe>
         </div>
@@ -47,17 +49,20 @@ get_header();
         </div>
     </div>
     <div class="clear"></div>
+    </div>
     <div id="cuscc_latest_members">
     
     </div>
     <div id="cuscc_membership_campaign">
-    
+        <div class="left slogan slogan_left">Have a business? Join China-U.S. Chamber of Commerce!</div>
+        <div class="left slogan slogan_right">Join Us!</div>
     </div>
     <div id="cuscc_latest_strategic_partners">
     
     </div>
     <div id="cuscc_strategic_partner_campaign">
-    
+        <div class="left slogan slogan_left">We are currently looking for strategic partners</div>
+        <div class="left slogan slogan_right">Join Us!</div>
     </div>
 
 </div>

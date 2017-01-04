@@ -16,3 +16,4 @@ $(document).ready(function(){
         }
     });
 });
+//change video players base on ip
