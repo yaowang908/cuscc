@@ -51,11 +51,20 @@ get_header();
     <div class="clear"></div>
     </div>
     <div id="cuscc_latest_members">
-    
+        <div class="left" id="cuscc_latest_members_side">
+            <p>Latest Members</p>
+            <p>Checkout our latest members, you can also submit your information and become a registered member.</p>
+            <button>View Business Members</button>
+        </div>
+        <div class="left" id="cuscc_latest_members_post">
+        
+        </div>
+        <div class="clear"></div>
     </div>
     <div id="cuscc_membership_campaign">
         <div class="left slogan slogan_left">Have a business? Join China-U.S. Chamber of Commerce!</div>
         <div class="left slogan slogan_right">Join Us!</div>
+        <div class="clear"></div>
     </div>
     <div id="cuscc_latest_strategic_partners">
     
@@ -63,6 +72,7 @@ get_header();
     <div id="cuscc_strategic_partner_campaign">
         <div class="left slogan slogan_left">We are currently looking for strategic partners</div>
         <div class="left slogan slogan_right">Join Us!</div>
+        <div class="clear"></div>
     </div>
 
 </div>

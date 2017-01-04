@@ -253,6 +253,7 @@ body{
     height:300px;
     width:80vw;
     margin:0 auto;
+    background-color:rgba(255, 255, 255, 0.5);
 }
 
 #cuscc_membership_campaign {
@@ -352,4 +353,23 @@ body{
     background:linear-gradient(to bottom, #333333,#232323);
     padding-left:20px;
     padding-right:20px;
+}
+
+#cuscc_latest_members_side {
+    width:30%;
+    height:100%;
+    margin-left:40px;
+}
+
+#cuscc_latest_members_side>p:first-child{
+    font-size:1.125rem;
+    margin:40px 0;
+    color:#333333;
+}
+#cuscc_latest_members_side>p:last-child{
+    font-size:0.875rem;
+    color:#333333;
+}
+#cuscc_latest_members_side>button{
+    margin-top:40px;
 }
