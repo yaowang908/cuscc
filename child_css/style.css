@@ -223,8 +223,9 @@ body{width:100%;min-height:100vh;position:relative;font-family: Montserrat,Cambr
 }
 #cuscc_videos{
     width:50%;
+    min-width: 560px;
     min-height:80vh;
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
 
 
@@ -275,4 +276,13 @@ body{width:100%;min-height:100vh;position:relative;font-family: Montserrat,Cambr
 #cuscc_lastest_news_title {
     margin-top:1rem;
     font-size: 1.5rem;
+}
+
+.cuscc_video_holder {
+    text-align: center;
+    display: none;
+}
+
+.cuscc_intro_video_youtube {
+    display:block;
 }

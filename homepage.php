@@ -32,7 +32,19 @@ get_header();
         </div>
     </div>
     <div id="cuscc_videos" class="left">
-    
+        <div id="userip" style="display:none;"><?php echo $_SERVER["REMOTE_ADDR"]?></div>
+        <div class="cuscc_video_holder cuscc_intro_video_youku">
+                <iframe height=315 width=560 src="http://player.youku.com/embed/XOTAxMjY3ODI0" frameborder=0 allowfullscreen></iframe>
+        </div>
+        <div class="cuscc_video_holder cuscc_intro_video_youtube">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hPCtdVQu98E" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="cuscc_video_holder cuscc_intro_video_youku">
+                <iframe height=315 width=560 src="http://player.youku.com/embed/XNjc1NzM5NDAw" frameborder=0 allowfullscreen></iframe>
+        </div>
+        <div class="cuscc_video_holder cuscc_intro_video_youtube">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/n5vU0QtfLDM" frameborder="0" allowfullscreen></iframe>
+        </div>
     </div>
     <div class="clear"></div>
     <div id="cuscc_latest_members">
