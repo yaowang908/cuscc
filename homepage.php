@@ -57,7 +57,7 @@ get_header();
             <button>View Business Members</button>
         </div>
         <div class="left" id="cuscc_latest_members_post">
-        
+        <?php echo do_shortcode('[lastest_members]');?>
         </div>
         <div class="clear"></div>
     </div>

@@ -10,6 +10,7 @@
 <script src="<?php echo get_stylesheet_directory_uri();?>/child_js/jquery-3.1.1.min.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri();?>/child_js/cuscc_menu.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri();?>/child_js/cuscc.js"></script>
+<?php wp_head();?>
 </head>
 <body>
 	
