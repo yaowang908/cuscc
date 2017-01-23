@@ -28,7 +28,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color:rgba(200,200,200,1);
+    /*background-color:rgba(200,200,200,1);*/
 }
 #cuscc_top{
 	width:100%;
